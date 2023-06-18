@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1333F92A3F13F7008C30D5 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1333F82A3F13F7008C30D5 /* Dependency.swift */; };
 		CFA01FF02A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA01FEF2A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift */; };
 		CFA01FF22A3EF0C1009C9636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA01FF12A3EF0C1009C9636 /* ContentView.swift */; };
 		CFA01FF42A3EF0C2009C9636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA01FF32A3EF0C2009C9636 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF1333F82A3F13F7008C30D5 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		CFA01FEC2A3EF0C1009C9636 /* TCA-UIViewControllerRepresentable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-UIViewControllerRepresentable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA01FEF2A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_UIViewControllerRepresentableApp.swift; sourceTree = "<group>"; };
 		CFA01FF12A3EF0C1009C9636 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,11 +64,12 @@
 			children = (
 				CFA01FF52A3EF0C2009C9636 /* TCA_UIViewControllerRepresentable.entitlements */,
 				CFA01FF12A3EF0C1009C9636 /* ContentView.swift */,
+				CF1333F82A3F13F7008C30D5 /* Dependency.swift */,
+				CFA01FEF2A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift */,
 				CFA020012A3EF261009C9636 /* ViewController.swift */,
 				CFA020052A3EF2EE009C9636 /* ViewControllerRepresentable.swift */,
-				CFA020022A3EF261009C9636 /* ViewController.xib */,
-				CFA01FEF2A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift */,
 				CFA01FF32A3EF0C2009C9636 /* Assets.xcassets */,
+				CFA020022A3EF261009C9636 /* ViewController.xib */,
 				CFA01FF62A3EF0C2009C9636 /* Preview Content */,
 			);
 			path = "TCA-UIViewControllerRepresentable";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA020032A3EF261009C9636 /* ViewController.swift in Sources */,
+				CF1333F92A3F13F7008C30D5 /* Dependency.swift in Sources */,
 				CFA020062A3EF2EE009C9636 /* ViewControllerRepresentable.swift in Sources */,
 				CFA01FF22A3EF0C1009C9636 /* ContentView.swift in Sources */,
 				CFA01FF02A3EF0C1009C9636 /* TCA_UIViewControllerRepresentableApp.swift in Sources */,
