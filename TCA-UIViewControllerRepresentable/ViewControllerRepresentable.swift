@@ -15,7 +15,21 @@ struct ViewControllerRepresentable: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: ViewController, context: Context) {
+        // UILabel is properly updated through the `viewStore.string` binding.
+        // This binding can change either directly (through the `buttonTapped` TCA action)
+        // or from UIKit, using the `didTapButton` delegate function and the Coordinator.
         uiViewController.setLabelText(string: viewStore.string)
+
+
+        // The view controller has some drag & drop functionality.
+        // I'd like to call `startDragging` from a TCA action
+        // and also use a dependency in this function's callback to know if it's possible to "drop":
+
+        /* Doesn't compile
+        uiViewController.startDragging(viewStore.string) { location in
+            return client.canDrop(viewStore.string, location)
+        }
+         */
     }
 
     func makeCoordinator() -> Coordinator {
